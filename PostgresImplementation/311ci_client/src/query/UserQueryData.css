@@ -1,0 +1,118 @@
+.user-query-datas-container {
+    max-width: 600px;
+    margin: 0 auto;    
+    margin-top: 20px; 
+}
+
+.user-query-data-content {
+    margin-bottom: 30px;
+    padding: 20px 15px 20px 15px;
+    letter-spacing: .01em;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.user-query-data-type {
+    font-weight: 500;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .user-query-data-type {
+        font-size: 18px;
+    }
+}
+
+.user-query-data-choices {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.user-query-data-choice-radio-group {
+    display: block;
+}
+
+.user-query-data-choice-radio {
+    display: block;
+    line-height: 1.7;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.separator {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #8899A6;
+}
+.user-query-data-info {
+    margin-left: 58px;
+    margin-bottom: 10px;
+    height: 58px;
+}
+
+.user-query-data-info .info-link {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.user-query-data-info .info-link:hover .user-query-data-creator-requestid {
+    color: #1890ff;
+    text-decoration: underline;
+}
+
+.user-query-data-creator-avatar {
+    float: left;
+    margin-top: 3px;
+    margin-left: -58px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 24px;    
+}
+
+.user-query-data-creator-avatar > * {
+    line-height: 48px;
+    font-size: 18px;
+}
+
+.user-query-data-creator-requestid {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+    margin-top: 4px;
+    display: inline-block;    
+    margin-right: 8px;
+}
+
+.user-query-data-creator-requestnumber {
+    color: #657786;
+    font-size: 15px;
+    display: inline-block;  
+}
+
+.user-query-data-fields {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.user-query-data-field-list-group {
+    display: block;
+}
+
+
+.user-query-data-creation-date {
+    display: block; 
+    color: #657786;
+    font-size: 13px;
+    margin-top: 2px;
+}
